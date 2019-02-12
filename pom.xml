@@ -16,6 +16,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
+                <openam-version>6.5.0.1</openam-version>
 	</properties>
 
 	<dependencies>
@@ -28,7 +29,7 @@
 		<dependency>
 			<groupId>org.forgerock.am</groupId>
 			<artifactId>openam-shared</artifactId>
-			<version>5.5.1</version>
+			<version>${openam-version}</version>
 		</dependency>
 	</dependencies>
 	<repositories>
